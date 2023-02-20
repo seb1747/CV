@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "cv",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss -o css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seb1747/CV.git"
+  },
+  "author": "binet sébastien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seb1747/CV/issues"
+  },
+  "homepage": "https://github.com/seb1747/CV#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
