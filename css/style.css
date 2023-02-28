@@ -27,6 +27,10 @@ a {
 img {
   max-width: 100%; }
 
+.title-small {
+  letter-spacing: 0.2rem;
+  font-size: 1.7rem; }
+
 .grid-container {
   display: grid;
   grid: "picture header" auto "aside main" 1fr / 350px auto;
@@ -53,7 +57,8 @@ header {
 .picture {
   grid-area: picture;
   padding: 6rem;
-  background: var(--background); }
+  background: var(--background);
+  border-right: 1px solid #ddd; }
   .picture img {
     border-radius: 50%;
     object-fit: cover;
@@ -62,7 +67,9 @@ header {
 
 aside {
   grid-area: aside;
-  background: purple; }
+  background: var(--background);
+  border-right: 1px solid #ddd;
+  padding: 5rem; }
 
 main {
   grid-area: main;

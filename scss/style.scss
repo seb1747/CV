@@ -1,5 +1,6 @@
 @import "reset";
 @import "base";
+@import "classes";
 
 .grid-container {
   display: grid;
@@ -35,6 +36,7 @@ header {
   grid-area: picture;
   padding: 6rem;
   background: var(--background);
+  border-right: 1px solid #ddd;
   img {
     border-radius: 50%;
     object-fit: cover;
@@ -45,7 +47,9 @@ header {
 
 aside {
   grid-area: aside;
-  background: purple;
+  background: var(--background);
+  border-right: 1px solid #ddd;
+  padding: 5rem;
 }
 
 main {
